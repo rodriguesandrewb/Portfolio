@@ -1,0 +1,467 @@
+/*************************** BASE STYLES *************************/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+	zoom: 1;
+}
+
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+
+span {
+	font-size: 12px;
+	color: white;
+}
+
+.one {
+	width: 25%;
+	padding: 0 20px;
+	float: left;
+}
+
+.two {
+	width: 50%;
+	padding: 0 20px;
+}
+
+.three {
+	width: 75%;
+	padding: 0 20px;
+}
+
+
+#contact p {
+	word-wrap: break-word;
+}
+
+.four {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.noPad {
+	padding: 0;
+}
+
+.form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.third {
+	padding: 0 20px;
+	width: 33.3333%;
+	margin-bottom: 40px;
+	float: left;
+	text-align: center;
+}
+
+.third img {
+	border: 5px solid white;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.white {
+	color: white;
+}
+
+.blue {
+	color: #3FA9F5;
+}
+
+.blueBox {
+	border: 1px solid #3FA9F5;
+	padding: 5px 10px;
+	display: inline-block;
+	color: #3FA9F5;
+	clear: left;
+}
+
+.whiteBox {
+	border: 1px solid white;
+	padding: 5px 10px;
+	display: inline-block;
+	color: white;
+}
+
+.whiteBg {
+	background: white;
+}
+
+.space {
+	display: block;
+	height: 0;
+}
+/*************************** NAVIGATION *************************/
+#naviFixed {
+	padding: 20px 0;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+}
+
+#naviFixed ul#navi li {
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 15px;
+	font-size: 14px;
+	color: white;
+}
+
+#navContainer {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+#AR {
+	font-size: 18px;
+}
+
+#DD { 
+	padding: 8px 0 0 10px;
+	font-size: 16px;
+}
+
+/*************************** MAIN TOP *************************/
+#mainTop .container {
+	background: url('../img/main.jpg') no-repeat;
+	background-position: 100% 100%;
+	/*background-attachment: fixed;*/
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+#quote {
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+/*************************** ABOUT *************************/
+
+h3 {
+	color: black;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+p + h3 {
+	margin-top: 50px;
+}
+
+p {
+	line-height: 1.6;
+	color: #999999;
+}
+
+.responsive {
+	width: 100%;
+}
+
+#port {
+	background: url(../img/port.jpg);
+	background-attachment: fixed;
+}
+
+#services .one {
+	margin-bottom: 50px;
+}
+
+#servicesCont {
+	padding-bottom: 10px;
+}
+
+#portCont {
+	padding-bottom: 40px;
+}
+
+#skillsCont {
+	padding-bottom: 60px;
+}
+
+.pad {
+	padding: 0 20px;
+}
+
+#port ul li {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+	color: white;
+}
+
+#port ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+#naviFixed p.whiteBox {
+	display: none;
+}
+
+#dropCont {
+	margin-top: 20px;
+	max-width: 100%;
+	display: block;
+	display: none;
+}
+
+ul#navi li a {
+	text-decoration: none;
+	color: white;
+}
+
+ul#navi li a:hover {
+	color: #3FA9F5;
+	border-bottom: 1px solid #3FA9F5;
+}
+
+#dropDown {
+	max-width: 1000px;
+	margin: 0 auto;
+	/*padding: 0 20px;*/
+	/*display: inline-block;*/
+}
+
+
+#dropDown li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	color: black;
+	text-decoration: none;
+	background: #3FA9F5;
+	/*float: right;*/
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#dropDown a:hover {
+	background: black;
+	color: #3FA9F5;
+}
+
+.imgR {
+	width: 100%;
+}
+
+#naviFixed p.whiteBox:hover {
+	display: initial;
+	display: block;
+	border: 1px solid #3FA9F5;
+	color: #3FA9F5;
+}
+
+#services {
+	text-align: center;
+}
+
+#contact {
+	color: white;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.centerText {
+	text-align: center;
+}
+
+h4 {
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+h5 {
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h6 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+h6 + p {
+	margin-bottom: 20px;
+}
+
+#services p {
+	font-size: 14px;
+}
+
+#services img {
+	margin: 0 auto;
+	display: block;
+}
+
+#contact {
+	background: url(../img/contact.jpg);
+	background-position: 50% 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+input[type=text] {
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: none;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+select {
+	width: 100%;
+	background: black;
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+}
+
+label {
+	display: block;
+}
+
+input[type=submit] {
+	background: none;
+	color: white;
+	padding: 10px;
+	border: 1px solid black;
+	margin-top: 3px;
+	display: block;
+	margin: 30px auto;
+}
+
+input[type=range] {
+	width: 100%;
+}
+
+#upload {
+	float: left;
+	margin-top: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    position:relative;
+    z-index:2;
+    background: black;    
+}
+
+input, select {
+	margin-bottom: 20px;
+}
+
+
+textarea {
+	width: 100%;
+	resize: none;
+	height: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	background: none;
+	color: white;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: -1px;
+}
+
+#skills h3 {
+	color: black;
+}
+
+#skills {
+	background: url(../img/wbkg.jpg);
+	background-attachment: fixed;
+}
+
+#skills img {
+	margin-bottom: 30px;
+}
+
+textarea:focus, input[type=text]:focus, input {
+	border: 1px solid  #3FA9F5;
+	outline: 0;
+}
+
+
+@media (max-width: 700px) {
+	.third {
+		width: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	.sixth {
+		width: 33.333%;
+	}
+	.two {
+		width: 100%;
+	}
+	.one {
+		width: 50%;
+	}
+	.topSpace {
+		margin-top: 50px;
+	}
+	#naviFixed p.whiteBox {
+		display: initial;
+		display: block;
+	}
+	/*Navigation Breaks*/
+	#navi {
+		display: none;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.third {
+		width: 100%;
+	}
+}
